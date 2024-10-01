@@ -1,4 +1,10 @@
+import FeedbackWidget from "@/components/feedback/feedback-widget";
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <FeedbackWidget />
+    </div>
+  );
 };
 export default Home;

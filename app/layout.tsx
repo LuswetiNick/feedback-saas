@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Mulish } from "next/font/google";
+import { Fredoka } from "next/font/google";
 import "./globals.css";
 
-const mulish = Mulish({ subsets: ["latin"] });
+const fredoka = Fredoka({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${mulish.className} bg-background min-h-screen antialiased`}
+        className={`${fredoka.className} bg-background min-h-screen antialiased`}
       >
         {children}
       </body>
